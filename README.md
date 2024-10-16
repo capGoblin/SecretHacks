@@ -53,9 +53,9 @@ The frontend is built using Next.js and can be found in the `app` directory. Key
 
 1. **Privacy-First Approach**: Utilizing Secret Network for enhanced privacy in voting and project submissions.
 
-- **Vote Encryption via Secret Network**: Ensures complete privacy and security for voters, protecting voter anonymity and preventing vote tampering.
+2. **Vote Encryption via Secret Network**: Ensures complete privacy and security for voters, protecting voter anonymity and preventing vote tampering.
 
-4. **Cross-Chain Compatibility**: Seamlessly integrated with EVM chains, including SEI's EVM-compatible testnet with WalletConnect, improving accessibility across all EVM networks.
+3. **Cross-Chain Compatibility**: Seamlessly integrated with EVM chains, including SEI's EVM-compatible testnet with WalletConnect, improving accessibility across all EVM networks.
 
 For more detailed information on the implementation, please refer to the code files in the `voting-contract` and `app` directories.
 
