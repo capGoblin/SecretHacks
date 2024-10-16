@@ -22,22 +22,17 @@ The core of SecretHacks is built on the Secret Network, which provides privacy a
 
 3. **Query Functions (performed solely by the platform)**: Allow retrieval of proposal and voting information. [View Code](https://github.com/capGoblin/SecretHacks/blob/eeb711859194264dcf0a0adf916bf182f4a73904/voting-contract/src/contract.rs#L223-L272)
 
-4. **Testing**: Comprehensive tests are implemented to ensure the functionality and security of the smart contracts. [View Tests](https://github.com/capGoblin/SecretHacks/blob/eeb711859194264dcf0a0adf916bf182f4a73904/voting-contract/src/contract.rs#L285-L380)
+4. **Testing**: Comprehensive tests are implemented to ensure the functionality and security of the smart contracts [View Tests](https://github.com/capGoblin/SecretHacks/blob/eeb711859194264dcf0a0adf916bf182f4a73904/voting-contract/src/contract.rs#L285-L380)
 
 ### Frontend
 
 The frontend is built using Next.js and can be found in the `app` directory. Key components include:
 
-1. **Hackathon List**: Displays available hackathons.
+1. **Hackathon List**: Displays available hackathons. [View Code](https://github.com/capGoblin/SecretHacks/blob/main/app/page.tsx)
 
-   - **File**: `app/page.tsx`
+2. **Project Creation**: Allows users to submit new projects. [View Code](https://github.com/capGoblin/SecretHacks/blob/main/app/%5BhackathonId%5D/create-project/page.tsx)
 
-2. **Project Creation**: Allows users to submit new projects.
-
-   - **File**: `app/[hackathonId]/create-project/page.tsx`
-
-3. **Voting Interface**: Enables users to vote for projects.
-   - **File**: `app/[hackathonId]/page.tsx`
+3. **Voting Interface**: Enables users to vote for projects. [View Code](https://github.com/capGoblin/SecretHacks/blob/main/app/%5BhackathonId%5D/page.tsx)
 
 ## Contract and Function Interactions
 
@@ -63,7 +58,6 @@ The frontend is built using Next.js and can be found in the `app` directory. Key
 - **Vote Encryption via Secret Network**: Ensures complete privacy and security for voters, protecting voter anonymity and preventing vote tampering.
 
 4. **Cross-Chain Compatibility**: Seamlessly integrated with EVM chains, including SEI's EVM-compatible testnet with WalletConnect, improving accessibility across all EVM networks.
-5. **User-Friendly Interface**: Implementing an intuitive UI for easy navigation and participation in hackathons.
 
 For more detailed information on the implementation, please refer to the code files in the `voting-contract` and `app` directories.
 
