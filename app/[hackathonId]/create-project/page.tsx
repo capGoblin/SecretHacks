@@ -335,7 +335,7 @@ const CreateProjectForm: React.FC = () => {
   };
 
   const handleBack = () => {
-    router.push(`/hackathons/${hackathonId}`);
+    router.push(`/${hackathonId}`);
   };
 
   return (

@@ -619,7 +619,7 @@ export default function HackathonDetailPage({
               </span>{" "}
               left to apply!
             </p>
-            <Link href={`/hackathons/${hackathon.id}/create-project`}>
+            <Link href={`/${hackathon.id}/create-project`}>
               <Button className="bg-gradient-to-r from-green-500 to-gray-700 text-white hover:from-green-600 hover:to-gray-800">
                 Apply now
               </Button>

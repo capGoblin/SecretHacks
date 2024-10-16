@@ -21,7 +21,7 @@ export default function Navbar() {
           </div>
           <div className="hidden md:block">
             <div className="ml-10 flex items-center space-x-4">
-              <NavLink href="/hackathons">Explore Hackathons</NavLink>
+              <NavLink href="/">Explore Hackathons</NavLink>
               <NavLink href="/projects">Explore Projects</NavLink>
               <ConnectButton />
             </div>
