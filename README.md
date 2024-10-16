@@ -6,11 +6,9 @@ SecretHacks is a decentralized platform designed to combat popularity bias and t
 
 ## Investor Pitch
 
-In many grant and hackathon systems, voting often favors projects with visible support, leading to skewed results. This popularity bias results in high-quality projects receiving less funding from matching pools. SecretHacks addresses this issue by encrypting votes, ensuring that funding reflects the true value of projects without being swayed by social trends or biases. The product fits within the growing need for transparency and fairness in decentralized funding mechanisms, positioning SecretHacks as a vital tool in the evolving landscape of blockchain-based grants and community projects.
+In many grant and hackathon systems, participants often vote based on **popularity bias** or follow the **bandwagon effect**, where projects with more visible support gain disproportionate attention. This results in skewed voting patterns and unfair competition. High-quality projects that not attract mass attention end up receiving **less funding from the matching pool** during Quadratic Voting/Funding, which unfairly limits their growth and potential impact.
 
-## How it was built
-
-SecretHacks is a decentralized quadratic funding platform built using smart contracts on the Secret Network and a Next.js frontend. The platform allows users to create and participate in hackathons, submit projects, and vote for their favorite projects using a quadratic funding mechanism.
+By encrypting these votes, SecretHacks creates a private, unbiased, and fair voting environment, ensuring that funding distribution is based on project merit rather than popularity.
 
 ### Smart Contracts
 
